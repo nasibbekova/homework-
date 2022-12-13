@@ -27,7 +27,8 @@ let other = []
 
 cars.filter (car =>{
     if (car.price  === 35000) {
-    cheap ++
+     cheap.push(car)
+        
 } else {
     other ++
 }
