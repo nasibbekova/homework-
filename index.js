@@ -30,7 +30,7 @@ cars.filter (car =>{
      cheap.push(car)
         
 } else {
-    other ++
+    other.push(car)
 }
 })
 
