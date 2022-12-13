@@ -45,12 +45,16 @@ let names = ['Aleksey', 'Kartoshka', 'Margarita' , 'Morgenshtern', 'Monica']
 
 let longestName =names.reduce((a,b)=> a.length > b.length ? a:b)
 
+names.filter (name => {
+    if 
+}
+
 console.log (longestName)
 
 // 3
 let total = 0
 
-let arr = [[[{a:{price: 20}}] [{a:{price: 35}}] [{a:{price: 44}}]]]
+let arr = [[[{a:{price: 20}}], [{a:{price: 35}}], [{a:{price: 44}}]]]
 
 if (arr[1])arr[1].price += arr.shift().price.push(total)
 
